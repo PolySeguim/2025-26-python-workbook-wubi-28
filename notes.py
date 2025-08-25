@@ -13,7 +13,7 @@ def whatType(userInput):
 """  multiple line comments
 
  """
- #Call the function with different user inputs
+#Call the function with different user inputs
 whatType(3)
 whatType(3.0)
 whatType(True)
