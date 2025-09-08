@@ -27,6 +27,7 @@ whatType(True)
 whatType("Wubi")
 whatType('W')
 
+
 #Create a variable named message
 message = """this is a
 multiline message
@@ -68,7 +69,7 @@ dolla$$$$
 def = "def"
 class = "python"
 """
-"""
+
 print(20+12)
 hour = 3
 print(hour - 1)
@@ -106,6 +107,7 @@ print(int(-4.11212132))
 print(int(-4.99999))
 print(int("1977"))
 #print(int("Wubi"))
+
 
 print(float(1977))
 print(float(3.1415))
