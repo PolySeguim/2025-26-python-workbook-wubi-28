@@ -164,5 +164,17 @@ def mailingAdress():
     print(Name)
     print(StreetAddress)
     print(City , State , ZipCode)
-mailingAdress()
 
+#mailingAdress()
+
+
+def bottleDeposists():
+       # reads the number of bottles
+       numOneLiterBottle = input("Number of 1L bottles: ")
+       numMoreOneLiterBottle = input("Number of more than 1L Bottles : ")
+       refund = numMoreOneLiterBottle*0.25+numOneLiterBottle*0.1
+       print("Your refund will be: $", refund)
+       # adding everything less than 1
+       # adding everything greater than 1
+
+#bottleDeposists()
