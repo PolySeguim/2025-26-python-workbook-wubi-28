@@ -55,7 +55,18 @@ area of the field in acres.
 Hint: There are 43,560 square feet in an acre
 """
 
-def 
+def areaofaFeild():
+    print("Enter how much feet in width")
+    print("Enter how much feet in length")
+    width = input("enter width: ")
+    length = input("enter length: ")
+    area = width * length
+    print(area)
+
+areaofaFeild()
+
+
+
 """
 Exercise 5:  Bottle Deposits
 In many jurisdictions a small deposit is added to drink 
